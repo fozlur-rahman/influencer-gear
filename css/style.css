@@ -113,6 +113,11 @@ nav {
     font-weight: 600;
 }
 
+.menu ul li a:hover {
+    color: #E02C6D;
+    transition: .7s;
+}
+
 .header-banner {
     display: flex;
     flex-direction: row;

@@ -1,0 +1,85 @@
+/* media query for tab device  */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+
+    /* header area  css  */
+    header {
+        margin-bottom: 0px;
+    }
+
+    .header-benner-text h1 {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header-banner {
+        display: block;
+
+    }
+
+    .header-benner-text {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .header-benner-img {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .header-benner-img img {
+        width: 90%;
+
+    }
+
+
+    /* collection area css  */
+    .collection-header-title {
+        margin-top: 10px;
+    }
+
+    .collection-products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-box {
+        width: 90% !important;
+
+    }
+
+    .product-title {
+        font-size: 22px;
+
+    }
+
+    /* constact area css  */
+    .contact-section {
+        margin-top: 0;
+        padding: 50px 0;
+    }
+
+    .contact-section form {
+        width: 50%;
+    }
+
+    .contact-section form input {
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 15px;
+    }
+
+    .f-btn {
+        width: 84.8% !important;
+
+    }
+}
